@@ -35,7 +35,7 @@ const Conversation = (props) => {
 
   const getmsg = async (conversationId) => {
     try {
-      const response = await axios.get(`http://ec2-43-205-237-35.ap-south-1.compute.amazonaws.com:4200///messages/${conversationId}`);
+      const response = await axios.get(`http://ec2-13-232-237-49.ap-south-1.compute.amazonaws.com:4200/messages/${conversationId}`);
       return response.data;
     } catch (error) {
       throw new Error(error.response.data);
