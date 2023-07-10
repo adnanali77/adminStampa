@@ -1,0 +1,29 @@
+/* ----poweredby */
+.company{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+.powered-by-stampa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    font-size: 12px;
+    background-color: #fff;
+}
+.powered-by{
+    color: gray;
+}
+.stampa-solutions{
+    margin-left: 0.5rem;
+}
+.stampa-icons img{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
+.stampa-icons img:hover{
+    cursor: pointer;
+}

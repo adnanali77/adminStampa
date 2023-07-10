@@ -1,0 +1,116 @@
+/* .profile-main{
+
+} */
+.profile-main-top{
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem 0;
+}
+.profile-main-top-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-main-top-left span{
+    font-size: 12px;
+}
+.p-m-t-u{
+    display: flex;
+    align-items: center;
+}
+.prf-btn{
+    background-color: #26A3F6;
+    color: #fff;
+    font-size: 12px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.prf-btn:hover{
+    cursor: pointer;
+}
+.prf-edit{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    border: 1px solid #26A3F6;
+    color: #26A3F6;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+.prf-edit:hover{
+    cursor: pointer;
+}
+.prf-img-div{
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prf-img-div img{
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    border-radius: 50%;
+    /* box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.53);
+    -webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.53);
+    -moz-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.53); */
+    margin-top: 0.4rem;
+}
+.prf-img-div span{
+    font-size: 12px;
+    margin-top: 0.4rem;
+}
+/* -----middle */
+.profile-main-middle{
+    font-size: 12px;
+}
+.prf-edit-com input{
+    font-size: 12px;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* margin-left: 25%; */
+}
+.prf-edit-com input:hover{
+    cursor: text;
+}
+.p-t-e-d{
+    background-color: #E9E9E9;
+    margin-bottom: 0.2rem;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+.p-t-e-d:hover{
+    cursor: text;
+}
+.prf-edit-com{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+label{
+    color: gray;
+    font-size: 12px;
+}
+
+/* .prf-tble-edit div{
+    display: flex;
+    align-items: center;
+    background-color: #E9E9E9;
+    margin-bottom: 0.2rem;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+} */
+/* ----------down */
+.profile-main-down span{
+    font-size: 12px;
+    /* margin-bottom: 4px; */
+}
+.mrg-top{
+    margin-top: 0.5rem;
+}
+.prf-link{
+    color: #26A3F6;
+}
